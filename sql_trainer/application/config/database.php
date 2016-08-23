@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> 'pgsql:host=127.0.0.1;port=5432;dbname= dropcoke_sql001',
 	'hostname' => '127.0.0.1',
-	'username' => 'dropcoke_sql001',
-	'password' => 'undostres',
-	'database' => 'dropcoke_sql001',
+	'username' => 'user_name',
+	'password' => 'password',
+	'database' => 'database',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
